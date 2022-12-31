@@ -610,7 +610,7 @@ Ndef.clear;
 Ndef(\x).reshaping = \elastic;
 Ndef(\y).reshaping = \elastic;
 Ndef(\z).reshaping = \elastic;
-Ndef(\x, { SinOsc.ar(Ndef(\y)) * 0.1 });
+Ndef(\x, { SinOsc.ar(Ndef(\y)) * 0.2 });
 Ndef(\y).rate == \control;
 Ndef(\y).numChannels == 1;
 Ndef(\x).rate == \audio;
